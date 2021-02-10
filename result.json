@@ -1,0 +1,59 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "lexburner-rip-5udou2j1",
+    "options": {
+        "url": "https://lexburner.rip/",
+        "index": "index.html",
+        "domain": "lexburner.rip",
+        "origin": "https://lexburner.rip",
+        "ipaddress": "104.21.46.164",
+        "originURL": "https://lexburner.rip/",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/",
+                "cookie": "__cfduid=ddd7f8f0f37fb045337bf40aff38c9e511612924431"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "date": "Wed, 10 Feb 2021 02:33:52 GMT",
+                "content-type": "text/html; charset=UTF-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "cf-cache-status": "DYNAMIC",
+                "cf-request-id": "082b62c6b000000ad8e739f000000001",
+                "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+                "report-to": "{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=FT7F4K1%2FCav%2FeEVf63jnV2LFtBYkn3LhwQDbqFKDiuhjtfrAasbwKPnf2%2FuntXHbWQW6vV1ZCPGlyz4GrO9mDnZrFfGzgnq5VFOQiFUe\"}],\"max_age\":604800}",
+                "nel": "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "cf-ray": "61f26d844dd60ad8-NRT",
+                "content-encoding": "gzip"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1612924431756,
+        "end": 1612924432741,
+        "spend": "0.985s"
+    }
+}

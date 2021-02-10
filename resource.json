@@ -1,0 +1,50 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://lexburner.rip/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://lexburner.rip/assets/img/yz.png",
+                    "path": "images/yz.png"
+                },
+                {
+                    "url": "https://lexburner.rip/assets/img/q8UohLwXuAj5JbZ.png",
+                    "path": "images/q8UohLwXuAj5JbZ.png"
+                },
+                {
+                    "url": "https://lexburner.rip/assets/img/ByUbCXoOuLlAtis.jpg",
+                    "path": "images/ByUbCXoOuLlAtis.jpeg"
+                },
+                {
+                    "url": "https://cdn.jsdelivr.net/gh/fz6m/china-lantern@1.6/dist/china-lantern.min.js",
+                    "path": "js/china-lantern.min.js"
+                },
+                {
+                    "url": "https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js",
+                    "path": "js/rocket-loader.min.js"
+                },
+                {
+                    "url": "https://lexburner.rip/assets/css/main.css",
+                    "path": "css/main.css",
+                    "children": [
+                        {
+                            "url": "https://lexburner.rip/assets/img/arches.png",
+                            "path": "images/arches.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
